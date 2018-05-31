@@ -29,7 +29,7 @@ def self.artists
   @@artists.uniq
 end
 
-def genre_count
+def self.genre_count
 @@genres.each do |genre, count|
   count = genres.length
 @@genre_count[:genre] << count
