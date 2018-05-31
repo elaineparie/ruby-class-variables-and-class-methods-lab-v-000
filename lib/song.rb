@@ -34,7 +34,6 @@ def genre_count
   count = genre.length
 @@genre_count[:genre] << count
 end
-@@genre_count
 end
 
 
