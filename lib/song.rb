@@ -30,10 +30,10 @@ def self.artists
 end
 
 def self.genre_count
-  counter = 0 
+  counter = 0
 @@genres.each do |genre|
   @@genre_count[genre] = counter
-  
+
 end
 @@genre_count
 end
