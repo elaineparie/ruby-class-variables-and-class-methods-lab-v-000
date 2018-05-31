@@ -4,7 +4,7 @@ attr_accessor :name, :artist, :genre
 
 @@count = 0
 
-@@genres = []
+@@genres |= []
 
 def initialize(name, artist, genre)
     @@count += 1
