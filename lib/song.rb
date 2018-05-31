@@ -35,5 +35,4 @@ def genre_count
 end
 @@genre_count
 end
-binding.pry
 end
