@@ -31,6 +31,7 @@ end
 
 def genre_count
 @@genres.collect do |genre, count|
+  count = genre.length
 @@genre_count[:genre] << count
 end
 @@genre_count
