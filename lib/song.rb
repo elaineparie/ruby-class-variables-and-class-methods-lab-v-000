@@ -32,6 +32,7 @@ end
 def genre_count
 @@genres.each do |genre, count|
 @@genre_count  << :genre[:count]
+@@genre_count
 end
 end
 
