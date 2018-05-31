@@ -31,7 +31,7 @@ end
 
 def self.genre_count
 @@genres.each do |genre|
-  @@genre_count[genre] = genre.length
+  @@genre_count[genre] << genre.length
 end
 end
 
