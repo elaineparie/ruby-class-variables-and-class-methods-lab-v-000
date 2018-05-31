@@ -19,7 +19,7 @@ def initialize(name, artist, genre)
  end
 
 def self.genres
-  @@genres ||= [].uniq
+  @@genres.uniq
 end
 
 end
