@@ -33,7 +33,6 @@ def self.genre_count
 
 @@genres.each do |genre|
 genre_count = {}
-  if
     genre_count[genre] = 1
 end
 genre_count
