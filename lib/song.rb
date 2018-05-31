@@ -34,7 +34,6 @@ def genre_count
 @@genre_count  << genre[count]
 end
 @@genre_count
-binding.pry
 end
-
+binding.pry
 end
