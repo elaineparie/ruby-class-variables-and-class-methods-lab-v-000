@@ -33,6 +33,7 @@ def self.genre_count
   counter = 0
 @@genres.each do |genre|
   @@genre_count[genre] = counter
+  if genre = genre 
 counter =+ 1
 end
 @@genre_count
